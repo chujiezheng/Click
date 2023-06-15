@@ -1,6 +1,5 @@
 
 paths=()
-paths[${#paths[*]}]="checkpoints_bad/blender/test"
 paths[${#paths[*]}]="checkpoints_bad/ft/test"
 paths[${#paths[*]}]="checkpoints_bad/unlikelihood_01/test"
 paths[${#paths[*]}]="checkpoints_bad/gedi/test_20.0"

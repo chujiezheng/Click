@@ -61,6 +61,10 @@ bash scripts_bad/eval/predict.sh
 # gather results
 cd /{project_path}
 bash scripts_bad/stats.sh
+
+# then look into `results_bad_test.txt` for results
+# the results' order is consistent as presented in the paper
+# you can paste them into Excel :)
 ```
 
 ## Sentiment Experiments
@@ -98,6 +102,8 @@ bash scripts_senti/eval/predict.sh
 # gather results
 cd /{project_path}
 bash scripts_senti/stats_pos.sh
+
+# then look into `results_senti_pos.txt` for results
 ```
 
 ## Repetition Experiments
@@ -137,6 +143,8 @@ bash scripts_wiki/eval/mauve.sh
 # gather results
 cd /{project_path}
 bash scripts_wiki/stats.sh
+
+# then look into `results_wiki_test.txt` for results
 ```
 
 ## Citation
