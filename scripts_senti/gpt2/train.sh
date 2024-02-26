@@ -18,5 +18,3 @@ train.py \
     --learning_rate 5e-5 \
     --num_epochs 2 \
     --warmup_steps 50
-
-bash scripts_senti/gpt2/augment_both.sh
